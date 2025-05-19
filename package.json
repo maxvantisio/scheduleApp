@@ -1,0 +1,23 @@
+{
+  "name": "scheduleapp",
+  "version": "1.0.0",
+  "description": "scheduling app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxvantisio/scheduleApp.git"
+  },
+  "author": "Maxwell Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxvantisio/scheduleApp/issues"
+  },
+  "homepage": "https://github.com/maxvantisio/scheduleApp#readme",
+  "devDependencies": {
+    "electron": "^36.2.1"
+  }
+}

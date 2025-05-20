@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset=""UTF-8"/>
-        <title>Schedule App</title>
-        <link rel="stylesheet" href="./styles/styles.css">
-    </head>
-    <body>
-        <div class="header">
-            <ul>
-                <li class="prev">&#10094;</li>
-                <li class="next">&#10095;</li>
-                <li id="month">May<br><span id="year">2025</span></li>
-            </ul>
-        </div>
-        <div class="calendar">
-            <ul class="daysOfWeek">
-                <li>Sun</li>
-                <li>Mon</li>
-                <li>Tue</li>
-                <li>Wed</li>
-                <li>Thur</li>
-                <li>Fri</li>
-                <li>Sat</li>
-            </ul>
-            <ul class="dates">
-
-            </ul>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Schedule App</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li class="prev">&#10094;</li>
+            <li id="month"></li>
+            <li class="next">&#10095;</li>
+        </ul>
+    </div>
+    <div class="calendar">
+        <ul class="weekdays">
+            <li>Sun</li>
+            <li>Mon</li>
+            <li>Tue</li>
+            <li>Wed</li>
+            <li>Thu</li>
+            <li>Fri</li>
+            <li>Sat</li>
+        </ul>
+        <div id="dates"></div>
+    </div>
     <script src="./renderer.js"></script>
+</body>
 </html>

@@ -6,6 +6,15 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
+    <span id="sidebar">
+        <div id="upperHalf">
+            <h2>Tags</h2>
+            <button id="tagButton">New Tag</button>
+            <input id="tagInput" type="text" class="hide"></input>
+            <div id="tagSection"></div>
+        </div>
+    </span>
+    <span id="calendarSection">
     <div class="header">
         <ul>
             <li class="prev">&#10094;</li>
@@ -25,6 +34,7 @@
         </ul>
         <div id="dates"></div>
     </div>
-    <script src="./renderer.js"></script>
+    </span>
+    <script type="module" src="./renderer.js"></script>
 </body>
 </html>
